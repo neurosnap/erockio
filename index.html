@@ -6,27 +6,43 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Yo, Erock!</title>
+
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
   <style>
-    .img {
-      max-height: 18%;
-      width: 30%;
+    html, body {
+      height: 100%;
+      font-size: 1.5em;
+      font-family: 'Open Sans', sans-serif;
+      overflow: hidden;
     }
-    @media (max-width: 770px) {
-      .img {
-        height: 30%;
-        width: 15%;
-      }
+
+    body {
+      margin: 0;
     }
 
     .erock {
-      max-width: 30%;
-      padding: 20px;
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-align: center;
+      -moz-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -moz-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-flex-direction: row;
+      flex-direction: row;
+      flex-wrap: wrap;
+      height: 97%;
       margin: auto;
-      position: absolute;
-      top: 0;
-      left: 0;
-      bottom: 0;
-      right: 0;
+      max-width: 30%;
+      text-align: center;
     }
 
     a, a:visited, a:hover {
@@ -35,22 +51,50 @@
     }
 
     .rain {
-      background:  url('candle.gif') no-repeat center/100% fixed;
+      background: url('candle.gif') no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
     }
 
     .icon {
-      width: 28%;
+      width: auto;
+      max-width: 100px;
       height: auto;
-      margin: 10px;
+    }
+
+    .erock > a {
+      flex-grow: 1;
+      max-height: 120px;
+      margin: 5px;
+    }
+
+    .credit {
+      flex-grow: 1;
+      font-size: 0.4em;
+    }
+
+    @media screen and (max-width: 768px) {
+      .erock {
+        flex-direction: column;
+        -webkit-flex-direction: column;
+        max-width: 50%;
+      }
     }
   </style>
 </head>
 <body class="rain">
-  <div class="erock img">
+  <div class="erock">
     <a href="http://github.com/neurosnap" target="_blank"><img src="github.png" alt="github" class="icon" /></a>
     <a href="http://stackoverflow.com/users/1713216/neurosnap" target="_blank"><img src="stackoverflow.png" alt="stack overflow" class="icon" /></a>
     <a href="http://twitter.com/neurosnap" target="_blank"><img src="twitter.png" alt="twitter" class="icon" /></a>
   </div>
+  <div class="credit"><a href="http://carlburton.tumblr.com/">Gif Credit: Carl Burton</a></div>
+  <script>
+    var bgs = ['oj.gif', 'overload.gif', 'candle.gif', 'purple_rain.gif'];
+    document.body.style.backgroundImage = "url('" + bgs[Math.floor(Math.random()*bgs.length)] + "')";
+  </script>
 </body>
 </html>
 
