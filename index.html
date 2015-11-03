@@ -70,7 +70,7 @@
       margin: 5px;
     }
 
-    .credit {
+    #credit {
       flex-grow: 1;
       font-size: 0.4em;
     }
@@ -99,10 +99,21 @@
     <a href="http://stackoverflow.com/users/1713216/neurosnap" target="_blank"><img src="stackoverflow.png" alt="stack overflow" class="icon" /></a>
     <a href="http://twitter.com/neurosnap" target="_blank"><img src="twitter.png" alt="twitter" class="icon" /></a>
   </div>
-  <div class="credit"><a href="http://carlburton.tumblr.com/">Gif Credit: Carl Burton</a></div>
+  <div id="credit"></div>
   <script>
-    var bgs = ['oj.gif', 'overload.gif', 'candle.gif', 'purple_rain.gif'];
-    document.body.style.backgroundImage = "url('" + bgs[Math.floor(Math.random()*bgs.length)] + "')";
+    var cb = { href: "http://carlburton.tumblr.com/", text: "Carl Burton" }
+    var bgs = [
+      { img: "oj.gif", credit: cb },
+      { img: "overload.gif", credit: cb },
+      { img: "purple_rain.gif", credit: cb },
+      { img: "candle.gif" }
+    ];
+
+    var bg = bgs[Math.floor(Math.random() * bgs.length)];
+    document.body.style.backgroundImage = "url('" + bg.img + "')";
+    if (bg.hasOwnProperty("credit")) {
+      document.getElementById("credit").innerHTML = '<a href="' + bg.credit.href + '" target="_blank">Gif Credit: ' + bg.credit.text + '</a>';
+    }
   </script>
 </body>
 </html>
