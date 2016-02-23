@@ -11,10 +11,18 @@ Education
 Experience
 ----------
 
+### Notion.ai, Ann Arbor MI
+Feb 2016 - Current
+
+_Position: Senior Web Developer_
+
+* Building notion's web and desktop client
+* Technologies: Nodejs, Electron, Babel, React, Redux, PostCSS
+
 ### Michigan.com, Detroit MI
 Innovation and Product Development
 
-May 2014 - Current
+May 2014 - Feb 2016
 
 _Position: Lead Software Developer_
 
