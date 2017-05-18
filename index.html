@@ -64,6 +64,10 @@
       height: auto;
     }
 
+    .email {
+      border-radius: 15px;
+    }
+
     .erock > a {
       flex-grow: 1;
       max-height: 120px;
@@ -98,15 +102,13 @@
     <a href="http://github.com/neurosnap" target="_blank"><img src="github.png" alt="github" class="icon" /></a>
     <a href="http://stackoverflow.com/users/1713216/neurosnap" target="_blank"><img src="stackoverflow.png" alt="stack overflow" class="icon" /></a>
     <a href="http://twitter.com/neurosnap" target="_blank"><img src="twitter.png" alt="twitter" class="icon" /></a>
+    <a href="mailto:neurosnap@gmail.com"><img src="email.png" alt="email me" class="icon email" /></a>
   </div>
   <div id="credit"></div>
   <script>
     var cb = { href: "http://carlburton.tumblr.com/", text: "Carl Burton" }
     var bgs = [
-      //{ img: "oj.gif", credit: cb },
-      //{ img: "overload.gif", credit: cb },
       { img: "purple_rain.gif", credit: cb },
-      { img: "candle.gif" }
     ];
 
     var bg = bgs[Math.floor(Math.random() * bgs.length)];

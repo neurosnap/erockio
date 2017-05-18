@@ -4,5 +4,4 @@ md:
 	sed -i -- 's/\<title\>\<\/title\>/\<title\>Eric Bower Resume\<\/title\>/' resume.html
 
 deploy:
-	source ~/.virtualenvs/fab/bin/activate
 	fab deploy
