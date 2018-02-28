@@ -1,4 +1,4 @@
-Eric Bower
+Eric Bower ([neurosnap@gmail.com](mailto:neurosnap@gmail.com))
 ==========
 
 Education
@@ -11,13 +11,18 @@ Education
 Experience
 ----------
 
-### Notion.ai, Ann Arbor MI
+### Trove, Ann Arbor MI
 Feb 2016 - Current
 
-_Position: Senior Web Developer_
+_Position: Principle Software Engineer_
 
-* Building notion's web and desktop client
-* Technologies: Nodejs, Electron, Babel, React, Redux, PostCSS
+* Lead engineer on the web team (7 members)
+* Manager of the Machine Learning team (4 members)
+* Building Trove's desktop client [download here](http://trove.com/desktop)
+* Built the desktop app from scratch
+* Assisting in the scaling and deployment of our machine learning neural networks
+* Prototyping, implementing, and deploying graph database that is core to our product
+* Technologies: Nodejs, Electron, Babel, React, Redux, Python, TensorFlow, Numpy, Golang, Dgraph, Chef
 
 ### Michigan.com, Detroit MI
 Innovation and Product Development
@@ -29,7 +34,7 @@ _Position: Lead Software Developer_
 * Deploy, manage, and maintain multiple web services
 * Prototyping web applications to service news journalism in Michigan
 * Designed, developed, and implemented [renvy.com](http://renvy.com),
-[detroitnow.io](http://detroitnow.io), and [on.detroitnow.io](http://on.detroitnow.io) which
+[detroitnow.io](http://detroitnow.io), and [on.detroitnow.io](http://everydash.detroitnow.io/) which
 utilizes Golang, Python, Node, Javascript, PostreSQL, Mongodb, and a micro-service infrastructure
 * We deployed these web services using Amazon Web Services (AWS), Puppet,
 Jenkins, Nginx, Supervisord, and Git
@@ -46,38 +51,9 @@ _Position: Software Developer_
 * Deployed traceability, molding, defect tracking systems among many others
 * Required start-to-finish involvement in system deployment and maintainence
 * Developed web applications using PHP, Javascript, Node, SQL Server, AWS
-
-### Reactive Resin Products, Perrysburg OH
-February 2013 - March 2014
-
-_Position: Software Developer_
-
 * Maintained CMS for label printing, invoicing, MRP
 * Responsabilities included: web developement, server, hardware, and network
 management for a 50-70 person manufacturing facility
-* Primarily used Windows Server 2008, SQL Server, Javascript, and PHP
-
-### Bowling Green State University, Bowling Green OH
-The Center for Teaching and Learning
-
-February 2008 - August 2011
-
-_Position: Faculty Consultant_
-
-* Facilitate workshops on various software programs supports by the university; and
-* Aided faculty and staff on how to use them
-* Made substantial revisions to the website and worked with their CMS extensively
-* Development using PHP, Javascript
-
-### GamingNews, Remote
-Freelance Employment, Columbus OH
-
-August 2006 - June 2007
-
-_Position: CMS Developer_
-
-* Created a Content Management System (CMS) for a news website; and
-* Maintained the entire web stack: LAMP, PHP, mySQL, and Javascript
 
 References
 ----------
