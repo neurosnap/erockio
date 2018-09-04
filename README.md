@@ -8,7 +8,7 @@
 
 ## Experience
 
-### [Very Possible](https://verypossible.com) https://verypossible.com, Remote
+### [Very Possible](https://verypossible.com), Remote
 
 Feb 2018 - Current
 
@@ -20,7 +20,7 @@ _Position: Senior Software Engineer, Front-End Practice Lead_
 - As Front-End Prace Lead, I fostered an environment of Teach, Learn, and Do.
 - Technologies: Nodejs, Typescript, React, Redux, Python, Serverless, Lambda, AWS
 
-### [Trove](https://trove.com) https://trove.com, Ann Arbor MI
+### [Trove](https://trove.com), Ann Arbor MI
 
 Feb 2016 - Feb 2018
 
@@ -34,7 +34,7 @@ _Position: Principle Software Engineer_
 - Prototyping, implementing, and deploying graph database that is core to our product
 - Technologies: Nodejs, Electron, Babel, React, Redux, Python, TensorFlow, Numpy, Golang, Dgraph, Chef
 
-### [Michigan.com](https://michigan.com) https://michigan.com, Detroit MI
+### [Michigan.com](https://michigan.com), Detroit MI
 
 Innovation and Product Development
 
@@ -53,7 +53,7 @@ _Position: Lead Software Developer_
 - Key decision maker in the web stack for our company
 - Maintained legacy web services using LAMP, PHP, mySQL, and Javascript
 
-### [Nysus Solutions](https://nysus.net) https://nysus.net, Holland OH
+### [Nysus Solutions](https://nysus.net), Holland OH
 
 May 2012 - May 2014
 
